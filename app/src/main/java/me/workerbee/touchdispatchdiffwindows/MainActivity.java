@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.root_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "顶部Window点击", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "底部Window点击", Toast.LENGTH_SHORT).show();
             }
         });
     }
